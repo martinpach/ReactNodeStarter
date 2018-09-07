@@ -13,7 +13,7 @@ app.use(morgan('combined'));
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-  res.send('Hello World');
+  res.send({ data: 'Hello' });
 });
 
 app.listen(config.server.port, () => logger.debug(`Listening on port ${config.server.port}`));

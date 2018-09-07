@@ -1,6 +1,6 @@
 {
   "name": "haliganda-api-server",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Node.js with mongodb API for haliganda web",
   "main": "index.js",
   "scripts": {
