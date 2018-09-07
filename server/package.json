@@ -1,0 +1,30 @@
+{
+  "name": "haliganda-api-server",
+  "version": "0.0.1",
+  "description": "Node.js with mongodb API for haliganda web",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "build": "webpack --mode development",
+    "test": "mocha"
+  },
+  "author": "Martin Pach",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "log4js": "^3.0.4",
+    "mongoose": "^5.2.6",
+    "morgan": "^1.9.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
